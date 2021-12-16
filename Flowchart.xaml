@@ -140,7 +140,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="eaf767b9-0e71-484d-ac7d-a7a57eaf39de" InformativeScreenshot="1b7a7f17b22def156845ea678fa9d667" Selector="&lt;webctrl parentid='nav-signin-tooltip' tag='SPAN' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="eaf767b9-0e71-484d-ac7d-a7a57eaf39de" InformativeScreenshot="47a6f45e41608276d558b0d7080ab291" Selector="&lt;webctrl parentid='nav-signin-tooltip' tag='SPAN' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -226,7 +226,7 @@
               <av:Size x:Key="ShapeSize">200,66</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap:VirtualizedContainerService.HintSize="476,991" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="s:String[]" Default="[{}]" Name="productsArray" />
               <Variable x:TypeArguments="x:String" Name="testProducts">
@@ -263,7 +263,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:SetValue AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT  twotabsearchtext'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="SetValue_6" Text="[CurrentRow(0).ToString()]">
                       <ui:SetValue.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c4c9661d-294c-40a3-b1db-d693fb20b688" InformativeScreenshot="05c0a05d49ebb6110cf9cd3efdf09ac9" Selector="&lt;html app='chrome.exe' /&gt;&lt;webctrl tag='INPUT' type='text' id='twotabsearchtextbox' /&gt;">
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c4c9661d-294c-40a3-b1db-d693fb20b688" InformativeScreenshot="266f68f500732f85cdcb93572c06859b" Selector="&lt;html app='chrome.exe' omit:title='Amazon.com. Spend less. Smile more.' /&gt;&lt;webctrl tag='INPUT' type='text' id='twotabsearchtextbox' /&gt;">
                           <ui:Target.TimeoutMS>
                             <InArgument x:TypeArguments="x:Int32" />
                           </ui:Target.TimeoutMS>
@@ -318,7 +318,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:ReadTextFile Content="[accountData]" DisplayName="Read Text File" FileName="data/account.txt" sap:VirtualizedContainerService.HintSize="384,80" sap2010:WorkflowViewState.IdRef="ReadTextFile_2" />
+        <ui:ReadTextFile Content="[accountData]" DisplayName="Read Text File" FileName="data/account.txt" sap:VirtualizedContainerService.HintSize="384,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_2" />
         <Assign sap:VirtualizedContainerService.HintSize="384,60" sap2010:WorkflowViewState.IdRef="Assign_7">
           <Assign.To>
             <OutArgument x:TypeArguments="s:String[]">[accountDataSplit]</OutArgument>

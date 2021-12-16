@@ -7563,15 +7563,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DRAGOS\\.nuget\\packages\\": {}
+    "C:\\Users\\Razvan\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "BlankProcess",
       "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\DRAGOS\\Documents\\UiPath\\BlankProcess\\.local",
-      "packagesPath": "C:\\Users\\DRAGOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DRAGOS\\Documents\\UiPath\\BlankProcess\\.local"
+      "projectPath": "D:\\GoAmazon\\ProjectRPA\\.local",
+      "packagesPath": "C:\\Users\\Razvan\\.nuget\\packages\\",
+      "outputPath": "D:\\GoAmazon\\ProjectRPA\\.local"
     },
     "frameworks": {
       "net461": {
@@ -7597,7 +7597,7 @@
             "version": "[21.10.1, 21.10.1]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\DRAGOS\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Razvan\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
